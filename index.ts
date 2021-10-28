@@ -4,6 +4,7 @@ import { ethers } from "ethers";
 
 const TOKEN_IDS = [
   16560,
+  17503,
   // <YOUR_GOTCHI_TOKEN_ID_HERE>
 ];
 
@@ -38,7 +39,7 @@ provider.ready.then(() => {
 
   const options = {
     gasLimit: 88000,
-    gasPrice: ethers.utils.parseUnits("100.0", "gwei"),
+    gasPrice: ethers.utils.parseUnits("12.0", "gwei"),
   };
 
   contractWithSigner
