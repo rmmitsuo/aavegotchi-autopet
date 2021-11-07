@@ -39,7 +39,7 @@ provider.ready.then(() => {
 
   const options = {
     gasLimit: 88000,
-    gasPrice: ethers.utils.parseUnits("30.0", "gwei"),
+    gasPrice: ethers.utils.parseUnits("15.0", "gwei"),
   };
 
   contractWithSigner
