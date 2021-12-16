@@ -2,7 +2,7 @@ name: Pet
 
 on:
   schedule:
-    - cron:  '40 09,21 * * *'
+    - cron:  '30-40/3 05/12 * * *'
 
 jobs:
   pet:
